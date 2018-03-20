@@ -1,0 +1,44 @@
+{
+  "name": "systemjs-course-cards",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "http-server -c-1 -o",
+    "pretest": "npm install",
+    "test": "karma start karma.conf.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dastangoo/systemjs-course-cards.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dastangoo/systemjs-course-cards/issues"
+  },
+  "homepage": "https://github.com/dastangoo/systemjs-course-cards#readme",
+  "description": "",
+  "devDependencies": {
+    "jspm": "^0.16.53"
+  },
+  "jspm": {
+    "dependencies": {
+      "underscore": "npm:underscore@^1.8.3"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  },
+  "dependencies": {
+    "jasmine-core": "^3.1.0",
+    "karma": "^2.0.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "^1.1.1",
+    "karma-jspm": "^2.2.3",
+    "karma-junit-reporter": "^1.2.0"
+  }
+}
